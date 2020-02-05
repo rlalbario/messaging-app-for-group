@@ -1,15 +1,24 @@
 import React from 'react';
+
+import logo from './logo.svg';
 import './App.css';
-import AppNavbar from './components/AppNavbar';
+import { Button } from 'reactstrap';
+import Footer from './components/Footer';
+import Banner from './components/Banner';
+import Features from './components/Features';
 
 function App() {
   return (
-    <div className="App">
+   
+    <div>  
+       <AppNavbar />
+      <Banner />  
+      <Features />
+      <Footer />
 
-      <AppNavbar />
+import './App.css';
+import AppNavbar from './components/AppNavbar';
 
-    </div>
-  );
-}
+
 
 export default App;
