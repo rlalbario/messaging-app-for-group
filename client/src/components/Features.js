@@ -4,7 +4,7 @@ export class Features extends Component {
     render() {
         return (
             <div className="container">
-                <div class="title text-center ">
+                <div className="title text-center ">
                   <h1 > Features </h1>   
                  </div>   
                 <div className="row text-center features">
