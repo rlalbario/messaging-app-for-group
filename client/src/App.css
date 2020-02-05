@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* AppNavBar */
+
+.mainNav {
+  background-color: #f4f4f4;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.navs {
+  font-weight: bold !important;
+}
